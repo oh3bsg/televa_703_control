@@ -20,7 +20,10 @@ Jännite io-expanderille ja optoerottimen input puolelle otetaan regulaattorin a
 Käyttöjännite (3.3V tai 5V), maa, I2C ja kohinasalvan tilatieto johdotetaan radion takana olevaan 5-napaiseen DIN-liittimeen.
 
 ## Kontrolli HW
-kuva skemasta
+![Schematic](skema.png)
+
+Optoerotin modulin sisäinen kytkentä
+![optoerotin](s-l1600.png)
 
 ## Kontrolli SW
 Kontrolli HW:tä ohjataan aluksi raspberry pi:llä ja siihen tehdyllä python sovelluksella.
@@ -40,13 +43,13 @@ kuva kälistä
 [Televa 703-LYVV Control](https://github.com/oh3bsg/televa_703_control)
 
 ## Linkkejä
-[Televa sivu 1]()
-[Televa sivu 2]()
-[Moppeakatemia]()
-[io-expander speksi ja ebay linkki]()
-[optoerotin speksi ja ebay linkki]()
-[raspberry pi io pinout]()
-[esp32 io pinout]()
+- [Televa703 AIS](https://wiki.sral.fi/wiki/Televa703_AIS)
+- [Televa703](https://wiki.sral.fi/wiki/Televa703)
+- [Televa 800](http://oh3tr.fi/suomi/moppeakatemia/televa800.shtml)
+- [Moppeakatemia](http://oh3tr.fi/suomi/moppeakatemia)
+- [MCU-2317 MCP23017 - I2C 16-Bit I/O Expander](https://www.ebay.com/itm/154938928049?_skw=MCP23017&itmmeta=01JE4KNHE8BE6QAQTQR55Z8GG7&hash=item2413146bb1:g:72wAAOSwyMVnRIfp&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKkKN32HxD1zj3SsAk5ZRw6R2oqfEPniaOIU7fTBAnb2msJi%2BIqOFPvyGFM%2FFp6wWBSiAgY9NBaDQ6lVfGMb2eiiqyrutFUQ472RZAj85LqdFOBV8H7l%2F9ssoOHuee3cAlaTXt8Ef%2BAb58weLJRKrb8gA0eD350ItY2Ag6%2FVYd1niKkaR%2FrpH%2FqKmIYWq9I8i%2FO6WnbMHmdbDuuHgrJ9ouRUsLVDfqEHtjwaZDpVjBuXmkRqIVj9Jla6InU89ChUtFyd%2Bsag0sGUbi2%2Bvjdsj9wZ%7Ctkp%3ABFBMnJfWk_Fk)
+- [12V 8-Channel High Level Trigger Module Optocoupler Insulation Board](https://www.ebay.com/itm/173581464657)
+- [raspberry pi pinout](https://pinout.xyz/pinout/i2c)
 
 ---
 OH3BSG
