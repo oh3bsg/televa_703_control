@@ -40,13 +40,13 @@ kuva kälistä
 [Televa 703-LYVV Control](https://github.com/oh3bsg/televa_703_control)
 
 ## Linkkejä
-Televa sivu 1
-Televa sivu 2
-Moppeakatemia
-io-expander speksi ja ebay linkki
-optoerotin speksi ja ebay linkki
-raspberry pi io pinout
-esp32 io pinout
+[Televa sivu 1]()
+[Televa sivu 2]()
+[Moppeakatemia]()
+[io-expander speksi ja ebay linkki]()
+[optoerotin speksi ja ebay linkki]()
+[raspberry pi io pinout]()
+[esp32 io pinout]()
 
 ---
 OH3BSG
