@@ -12,7 +12,7 @@ global div
 global frq_view
 global i2cbus
 global i2caddress
-div=0
+#div=0
 
 def update(div):
     """ Update PLL and display """
@@ -130,11 +130,11 @@ frq_x_pos = [30, 80, 130, 200, 250, 300]
 frq_up_cb = [bt_100_up, bt_10_up, bt_1_up, bt_0_1_up, bt_0_01_up, bt_0_001_up]
 frq_down_cb = [bt_100_down, bt_10_down, bt_1_down, bt_0_1_down, bt_0_01_down, bt_0_001_down]
 
-
 def main():
     global frq_view
     global i2cbus
     global i2caddress
+    global div
 
     root = tk.Tk()
     root.title("TELEVA 703-LYVV Control")
@@ -153,6 +153,7 @@ def main():
     i2cbus.write_byte_data(i2caddress, IOCON, 0x02)  # Update configuration register
     i2cbus.write_word_data(i2caddress, IODIRA, 0xFF00)  # Set Port A as outputs and Port B as inputs
 
+    div = 0
     update(div)
     root.mainloop()
 

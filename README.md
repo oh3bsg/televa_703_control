@@ -20,10 +20,10 @@ Jännite io-expanderille ja optoerottimen input puolelle otetaan regulaattorin a
 Käyttöjännite (3.3V tai 5V), maa, I2C ja kohinasalvan tilatieto johdotetaan radion takana olevaan 5-napaiseen DIN-liittimeen.
 
 ## Kontrolli HW
-![Schematic](skema.png)
+![Schematic](./Pictures/skema.png)
 
 Optoerotin modulin sisäinen kytkentä
-![optoerotin](s-l1600.png)
+![optoerotin](./Pictures/s-l1600.png)
 
 ## Kontrolli SW
 Kontrolli HW:tä ohjataan aluksi raspberry pi:llä ja siihen tehdyllä python sovelluksella.
