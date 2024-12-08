@@ -42,6 +42,11 @@ kuva kälistä
 ## GIT
 [Televa 703-LYVV Control](https://github.com/oh3bsg/televa_703_control)
 
+## Ongelmia
+Uusimmat CH341 driverit ei toimi platform.io:n kanssa. Toimiva 3.5 toimii
+- [CH341SER Driver ver 3.5](https://web.archive.org/web/20211129002033/http://www.wch-ic.com/downloads/CH341SER_EXE.html)
+- [Keskustelu driveristä](https://forum.arduino.cc/t/serial-serialutil-serialexception-cannot-configure-port-something-went-wrong-original-message-permissionerror-13-a-device-attached-to-the-system/1123035/3)
+
 ## Linkkejä
 - [Televa703 AIS](https://wiki.sral.fi/wiki/Televa703_AIS)
 - [Televa703](https://wiki.sral.fi/wiki/Televa703)
